@@ -15,7 +15,7 @@ header {
     align-items: left;
     justify-content: space-between;
     z-index: 500;
-    background-image: url(img/fondonavigation.jpg);
+    background-color: rgb(255, 255, 255);
 }
 
 h3 {
