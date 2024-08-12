@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>WELCOME</h2>
+        <nav class="navigation">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="HOME-content">
+            <h1>Hi, I'm <strong>Soledad Padilla</strong></h1>
+            <h3>I'm an app developer, based in Uruguay!</h3>
+        </div>
+        <img id="image" src="imagen1.webp" alt="Programar" width="500" height="333"> 
+    </section>
+    <section id="about" class="home">
+        <div class="ABOUT">
+            <section id="about" class="home">
+                <div class="ABOUT">
+                    <p>I'm a freelance and full-stack developer with a passion for building digital services. I have a knack for all things related to launching products, from planning and designing to solving real-life problems with code.</p>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+    <section id="contact" class="home">
+        <div class="CONTACT">
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                
+                <input type="submit" value="Send message">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
